@@ -1,0 +1,62 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+#socialMenu li{
+	height:35px;
+	width:35px;
+    padding:2px;
+}
+#socialMenu span{
+	width:0;
+	left:36px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:35px;
+	-webkit-transition: 0.30s;
+	-moz-transition: 0.30s;
+	transition: 0.30s;
+}
+#socialMenu a{
+	height:35px;
+	width:35px;
+	display:block;
+	position:relative;
+}
+#socialMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+#socialMenu a:hover{
+	-moz-box-shadow:5px 0 5px #adadad;
+	-webkit-box-shadow:5px 0 5px #adadad;
+	box-shadow:5px 0 5px #adadad;
+}
+#socialMenu .google  span{
+	background-color:#f96161;
+	color:#cc2a36;
+	text-shadow:1px 1px 1px #eb6841;
+}
+#socialMenu .instagram  span{
+	background-color:#ffd3b6;
+	color:#ff8b94;
+	text-shadow:1px 1px 1px #ffaaa5;
+}
+#socialMenu .facebook span{
+	background-color:#8b9dc3;
+	color:#3b5998;
+	text-shadow:1px 1px 1px #dfe3ee;
+}
+#socialMenu .twitter span{
+	background-color:#77aaff;
+	color:#d4d8d4;
+	text-shadow:1px 1px 1px #a19c9c;
+}
+#socialMenu .youtube  span{
+	background-color:#fe5757;
+	color:#740001;
+	text-shadow:1px 1px 1px #f00000;
+}
